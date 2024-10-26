@@ -1,0 +1,107 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+}
+
+.active {
+    background: rgb(222, 215, 215);
+}
+
+.btn {
+    background: rgb(28, 27, 91);
+    padding: 5px 10px;
+    color: white;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    background: rgb(136, 29, 29);
+}
+
+
+.btn_green {
+    background: rgb(94, 163, 60);
+    padding: 5px 10px;
+    color: white;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    border-radius: 4px;
+}
+
+.btn_green:hover {
+    background: rgb(20, 149, 11);
+}
+
+.login_body {
+    height: 100vh;
+    background-image: url('../public/assets/bg.avif'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btn_delete {
+    background: red;
+    padding: 5px 10px;
+    color: white;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    border-radius: 4px;
+}
+
+.btn_delete:hover {
+    background: rgb(140, 15, 15);
+}
+
+.btn_enable {
+    background: blue;
+    padding: 5px 10px;
+    color: white;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    border-radius: 4px;
+}
+
+.btn_enable:hover {
+    background: rgb(14, 14, 132);
+}
+
+.btn_photo {
+    background: teal;
+    padding: 5px 10px;
+    color: white;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    border-radius: 4px;
+}
+
+.btn_photo:hover {
+    background: #105353;
+}
+
+.btn_main {
+    background: coral;
+    padding: 5px 10px;
+    color: white;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    border-radius: 4px;
+}
+
+.btn_main:hover {
+    background: rgb(171, 68, 31);
+}
